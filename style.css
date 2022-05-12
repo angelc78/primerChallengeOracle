@@ -1,0 +1,151 @@
+* {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	line-height: 150%;
+	border: 10px;
+}
+
+.contenedor{
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+	width: 95%;
+	height: 100%;
+	max-width: 2000px;
+	overflow: hidden;
+}
+
+.header{
+	border-radius: 10px;
+}
+
+.main{
+	width: 50%;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+	display: block;
+}
+
+.aside{
+	width: 50%;
+	padding: 20px;
+	float: right;
+	box-sizing: border-box;
+}
+
+.input-text1{
+	position: relative;
+	background: #9bc9e3;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	text-align: center;
+	opacity: 95%;
+	width: 100%;
+	height: 300px;
+	box-sizing: border-box;
+	color: #001140;
+}	
+
+.input-text2{
+	position: relative;
+	background: #9bc9e3;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	text-align: center;
+	opacity: 95%;
+	width: 100%;
+	height: 600px;
+	box-sizing: border-box;
+	color: #001140;
+}
+
+.h6{
+	padding-top: 5px;
+	text-align: center;
+	color: white;
+}
+
+.boton1{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 10px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.boton2{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 10px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.boton3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100px;
+	margin-left: auto;
+	margin-right:auto;
+	display: inline;
+}
+
+
+.body {
+	position: relative;+
+  margin: 0;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+ 	position: relative;
+ 	margin: auto;
+  bottom: 0;
+ 	width: 95%;
+ 	height: 40px;
+ 	background: #12adac;
+	opacity: 60%;
+	border-radius: 6px;
+	text-align: center;
+	color: #001140;
+	padding-top: 10px;
+	margin-top: auto;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 95%;
+}

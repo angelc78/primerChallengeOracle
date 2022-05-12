@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+	<meta charset="utf-8">
+	<title>Mi primer challenge: Pagina de Encriptador de Texto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum.scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=627c7287cf1569001953d4da&product=inline-follow-buttons" async="async"></script>
+</head>
+<video autoplay muted loop id="myVideo">
+  <source src="Video/01.mp4" type="video/mp4">
+</video>
+<body>
+	<div class= contenedor>
+		<header class="header" style= "background-color: #18e7e5; text-align: left; padding: 10px;opacity: 60%;">
+			<img src="./img/Logo.png">
+			<h1 style="display: inline-block; text-align: center;">ENCRIPTADOR DE TEXTO</h1>
+		</header>	
+		<section class= "main" style="text-align: center;">
+			<textarea type="text" class="input-text1" placeholder="Ingrese el texto aqui"></textarea>
+			<h6 class= "h6">"Solo letras minúsculas y sin acentos"</h6>
+			<button style= "background-color: #215CAD; color: white" 	type="button" class="boton1" onclick= "botonEncriptar()"> Encriptar </button>		
+			<button style= "background-color: #215CAD; color: white" 	type="button" class="boton2" onclick= "botonDesencriptar()">	Desencriptar</button>
+		</section>	
+		<section class= "aside" style= "display: inline-block; text-align: center">
+			<textarea type="text" class="input-text2" placeholder ="Ningún mensaje fue encontrado"></textarea>
+			<button style= "background-color: #215CAD; color: white" type="button" class="boton3" onclick= "copiarTxt()">Copiar</button>
+		</section>
+	</div>
+	<footer class="footer"><h3>Angel Contreras - Todos Los Derechos Reservados</h3>
+		<div class="sharethis-inline-follow-buttons" style="text-align: right;"></div>
+	</footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>
