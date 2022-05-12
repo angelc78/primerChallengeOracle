@@ -58,4 +58,5 @@ function copiarTxt() {
 
     alert("Texto Copiado!");
     entradaTexto.focus();
+    respuesta.value = "";
 }
