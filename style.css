@@ -127,18 +127,21 @@
 }
 
 .footer {
- 	position: relative;
- 	margin: auto;
+  position: relative;
+  margin: auto;
   bottom: 0;
- 	width: 95%;
- 	height: 40px;
- 	background: #12adac;
-	opacity: 75%;
-	border-radius: 6px;
-	text-align: center;
-	color: #001140;
-	padding-top: 10px;
-	margin-top: auto;
+  width: 95%;
+  height: 40px;
+  background: #12adac;
+  opacity: 75%;
+  border-radius: 6px;
+  text-align: center;
+  color: #001140;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-sizing: content-box;
 }
 
 #myVideo {
